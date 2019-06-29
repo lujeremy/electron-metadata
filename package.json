@@ -1,12 +1,17 @@
 {
   "name": "electron-metadata",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "File metadata viewer made in Electron",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "electron"
+  ],
+  "author": "Jeremy Lu",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
 }
